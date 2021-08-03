@@ -15,13 +15,11 @@
 
 ## Install
 
-This has peer dependencies of `rxjs@6.x.x` and `redux@4.x.x`, which will have to be installed as well.
+This has peer dependencies of `rxjs@7.x.x` and `redux@4.x.x`, which will have to be installed as well.
 
 ```bash
 npm install --save redux-observable
 ```
-
-> Note: current stable version `redux-observable` doesn't work with `rxjs@7.x.x`, it works with `rxjs@6.x.x`. If you still want to use `rxjs@7.x.x`, upgrade to `redux-observable@2.0.0-rc.2`.
 
 ##### UMD
 
